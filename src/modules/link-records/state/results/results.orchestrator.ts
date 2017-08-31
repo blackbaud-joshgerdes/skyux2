@@ -1,6 +1,6 @@
 import { LinkRecordsStateOrchestrator } from '../link-records-state.rxstate';
-import { AsyncList } from 'microedge-rxstate';
-import * as moment from 'moment';
+import { AsyncList } from 'microedge-rxstate/dist';
+let moment = require('moment');
 
 import { LinkRecordsResultModel } from './result.model';
 import { LinkRecordsResultsLoadAction } from './actions';

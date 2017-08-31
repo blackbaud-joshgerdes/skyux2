@@ -1,4 +1,4 @@
-import { AsyncList, AsyncItem } from 'microedge-rxstate';
+import { AsyncList, AsyncItem } from 'microedge-rxstate/dist';
 import { LinkRecordsMatchModel } from './matches/match.model';
 import { LinkRecordsFieldModel } from './fields/field.model';
 import { LinkRecordsResultModel } from './results/result.model';

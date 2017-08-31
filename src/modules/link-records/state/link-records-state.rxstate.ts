@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { StateDispatcher, StateOrchestrator } from 'microedge-rxstate';
+import { StateDispatcher, StateOrchestrator } from 'microedge-rxstate/dist';
 import { LinkRecordsStateAction } from './link-records-state-action.type';
 
 @Injectable()

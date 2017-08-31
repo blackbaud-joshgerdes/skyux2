@@ -1,5 +1,10 @@
 import { Component, Input, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/combineLatest';
+import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/take';
 import { LinkRecordsState, LinkRecordsStateDispatcher } from './state';
 import { LinkRecordsFieldsSetFieldsAction } from './state/fields/actions';
 import { LinkRecordsSelectedSetSelectedAction } from './state/selected/actions';
